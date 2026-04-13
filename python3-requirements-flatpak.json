@@ -1,0 +1,63 @@
+{
+  "name": "python3-requirements-flatpak",
+  "buildsystem": "simple",
+  "build-commands": [],
+  "modules": [
+    {
+      "name": "python3-lxml",
+      "buildsystem": "simple",
+      "build-commands": [
+        "pip3 install --verbose --ignore-installed --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} \"lxml==6.0.2\" --no-build-isolation"
+      ],
+      "sources": [
+        {
+          "type": "file",
+          "path": "flatpak-wheels/lxml-6.0.2-cp312-cp312-manylinux_2_26_x86_64.manylinux_2_28_x86_64.whl",
+          "sha256": "90a345bbeaf9d0587a3aaffb7006aa39ccb6ff0e96a57286c0cb2fd1520ea192"
+        }
+      ]
+    },
+    {
+      "name": "python3-typing-extensions",
+      "buildsystem": "simple",
+      "build-commands": [
+        "pip3 install --verbose --ignore-installed --exists-action=i --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} \"typing-extensions\" --no-build-isolation"
+      ],
+      "sources": [
+        {
+          "type": "file",
+          "url": "https://files.pythonhosted.org/packages/18/67/36e9267722cc04a6b9f15c7f3441c2363321a3ea07da7ae0c0707beb2a9c/typing_extensions-4.15.0-py3-none-any.whl",
+          "sha256": "f0fa19c6845758ab08074a0cfa8b7aecb71c999ca73d62883bc25cc018c4e548"
+        }
+      ]
+    },
+    {
+      "name": "python3-python-docx",
+      "buildsystem": "simple",
+      "build-commands": [
+        "pip3 install --verbose --ignore-installed --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} \"python-docx==1.1.2\" --no-build-isolation --no-deps"
+      ],
+      "sources": [
+        {
+          "type": "file",
+          "url": "https://files.pythonhosted.org/packages/3e/3d/330d9efbdb816d3f60bf2ad92f05e1708e4a1b9abe80461ac3444c83f749/python_docx-1.1.2-py3-none-any.whl",
+          "sha256": "08c20d6058916fb19853fcf080f7f42b6270d89eac9fa5f8c15f691c0017fabe"
+        }
+      ]
+    },
+    {
+      "name": "python3-pypdf",
+      "buildsystem": "simple",
+      "build-commands": [
+        "pip3 install --verbose --ignore-installed --exists-action=i --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} \"pypdf==6.9.2\" --no-build-isolation"
+      ],
+      "sources": [
+        {
+          "type": "file",
+          "url": "https://files.pythonhosted.org/packages/a5/7e/c85f41243086a8fe5d1baeba527cb26a1918158a565932b41e0f7c0b32e9/pypdf-6.9.2-py3-none-any.whl",
+          "sha256": "662cf29bcb419a36a1365232449624ab40b7c2d0cfc28e54f42eeecd1fd7e844"
+        }
+      ]
+    }
+  ]
+}

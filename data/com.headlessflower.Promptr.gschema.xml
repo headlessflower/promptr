@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<schemalist>
+  <schema id="com.headlessflower.Promptr" path="/com/headlessflower/Promptr/">
+    <key name="scroll-speed" type="d">
+      <default>1.8</default>
+      <summary>Scroll speed</summary>
+      <description>Auto-scroll speed used by the teleprompter.</description>
+    </key>
+    <key name="text-size" type="i">
+      <default>42</default>
+      <summary>Text size</summary>
+      <description>Displayed text size for the teleprompter.</description>
+    </key>
+    <key name="mirror-mode" type="b">
+      <default>false</default>
+      <summary>Mirror mode</summary>
+      <description
+            >Whether the teleprompter text is mirrored horizontally.</description>
+    </key>
+    <key name="fullscreen-on-start" type="b">
+      <default>false</default>
+      <summary>Fullscreen on start</summary>
+      <description
+            >Whether the app should start in fullscreen mode.</description>
+    </key>
+  </schema>
+</schemalist>

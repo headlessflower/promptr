@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=Promptr
+Exec=promptr
+Icon=com.headlessflower.Promptr
+Type=Application
+Terminal=false
+Categories=Office;Utility;AudioVideo;
+StartupNotify=true
+Keywords=teleprompter;prompt;script;reading;presentation;
+MimeType=text/plain;application/vnd.openxmlformats-officedocument.wordprocessingml.document;application/vnd.oasis.opendocument.text;application/rtf;
+DBusActivatable=false
