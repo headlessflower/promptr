@@ -26,5 +26,6 @@ modules:
       - install -D data/com.headlessflower.Promptr.gschema.xml /app/share/glib-2.0/schemas/com.headlessflower.Promptr.gschema.xml
       - glib-compile-schemas /app/share/glib-2.0/schemas
     sources:
-      - type: dir
-        path: .
+      - type: git
+      - url: https://github.com/headlessflower/promptr.git
+      - tag: v0.1.0

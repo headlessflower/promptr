@@ -1,53 +1,71 @@
-<?xml version="1.0" encoding="UTF-8" ?>
+<?xml version="1.0" encoding="UTF-8"?>
 <component type="desktop-application">
   <id>com.headlessflower.Promptr</id>
-  <metadata_license>MIT</metadata_license>
+
+  <metadata_license>CC0-1.0</metadata_license>
   <project_license>MIT</project_license>
+
   <name>Promptr</name>
-  <summary>A GNOME teleprompter app for reading scripts smoothly</summary>
+  <summary>GNOME teleprompter for smooth script reading</summary>
+
   <description>
     <p>
-    Promptr is a GTK4 and libadwaita teleprompter for Linux. It loads text documents,
-          supports adjustable scroll speed and text size, offers fullscreen and mirror mode,
-          and provides a clean reading interface for creators, presenters, and streamers.
+      Promptr is a GTK4 and libadwaita teleprompter for Linux. It supports adjustable
+      scroll speed and text size, fullscreen mode, mirror mode, and a clean reading
+      interface for creators, presenters, and streamers.
     </p>
     <p>
-        Load text documents and read them smoothly with a clean,
-        distraction-free interface designed for creators,
-        presenters, and streamers.
-      </p>
+      Promptr can load plain text, Markdown, DOCX, ODT, RTF, and PDF files, making it
+      easy to read scripts in a distraction-free desktop app.
+    </p>
   </description>
+
   <launchable type="desktop-id">com.headlessflower.Promptr.desktop</launchable>
+
   <categories>
     <category>Office</category>
-
   </categories>
+
   <keywords>
-      <keyword>teleprompter</keyword>
-      <keyword>script</keyword>
-      <keyword>prompt</keyword>
-      <keyword>presentation</keyword>
-      <keyword>reading</keyword>
-    </keywords>
-    <content_rating type="oars-1.1" />
+    <keyword>teleprompter</keyword>
+    <keyword>script</keyword>
+    <keyword>prompt</keyword>
+    <keyword>presentation</keyword>
+    <keyword>reading</keyword>
+  </keywords>
 
-    <releases>
-      <release version="0.1.0" date="2026-04-07">
-        <description>
-          <p>Initial public release of Promptr.</p>
-        </description>
-      </release>
-    </releases>
+  <content_rating type="oars-1.1"/>
 
-    <screenshots>
-      <screenshot type="default">
-        <caption>Main Promptr window</caption>
-        <image>https://your-domain/promptr-screenshot.png</image>
-      </screenshot>
-    </screenshots>
+  <releases>
+    <release version="0.1.0" date="2026-04-07">
+      <description>
+        <p>Initial public release of Promptr.</p>
+      </description>
+    </release>
+  </releases>
 
-    <url type="homepage">https://github.com/headlessflower/promptr</url>
-    <url
-        type="bugtracker"
-    >https://github.com/headlessflower/promptr/issues</url>
+  <screenshots>
+    <screenshot type="default">
+      <caption>Main Promptr window</caption>
+      <image>https://raw.githubusercontent.com/headlessflower/promptr/main/screenshots/Promptr-screenshot-1.png</image>
+    </screenshot>
+
+    <screenshot>
+      <caption>Load document from folder</caption>
+      <image>https://raw.githubusercontent.com/headlessflower/promptr/main/screenshots/promptr-screenshot-4.png</image>
+    </screenshot>
+
+    <screenshot>
+      <caption>Document loaded and scrolling</caption>
+      <image>https://raw.githubusercontent.com/headlessflower/promptr/main/screenshots/promptr-screenshot-5.png</image>
+    </screenshot>
+
+    <screenshot>
+      <caption>Mirror mode for teleprompter setups</caption>
+      <image>https://raw.githubusercontent.com/headlessflower/promptr/main/screenshots/promptr-screenshot-6.png</image>
+    </screenshot>
+  </screenshots>
+
+  <url type="homepage">https://github.com/headlessflower/promptr</url>
+  <url type="bugtracker">https://github.com/headlessflower/promptr/issues</url>
 </component>
