@@ -1,11 +1,12 @@
 [Desktop Entry]
 Name=Promptr
+Comment=GNOME teleprompter for reading scripts smoothly
 Exec=promptr
 Icon=com.headlessflower.Promptr
 Type=Application
 Terminal=false
-Categories=Office;Utility;AudioVideo;
+Categories=Office;
 StartupNotify=true
 Keywords=teleprompter;prompt;script;reading;presentation;
-MimeType=text/plain;application/vnd.openxmlformats-officedocument.wordprocessingml.document;application/vnd.oasis.opendocument.text;application/rtf;
+MimeType=text/plain;application/vnd.openxmlformats-officedocument.wordprocessingml.document;application/vnd.oasis.opendocument.text;application/rtf;application/pdf;
 DBusActivatable=false
